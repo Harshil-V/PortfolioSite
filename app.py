@@ -40,6 +40,20 @@ with open(resume, "rb") as pdf_file:
 
 profile_pic = Image.open(profile_pic)
 
-st.title("Hello!!")
+# ---  HERO SECTION ---
+col1, col2 = st.columns(2, gap="small")
+with col1:
+    st.image(profile_pic, width=230)
+
+with col2:
+    st.title(NAME)
+    st.write(DESCRIPTION)
+    st.download_button(
+        label="📄 Download Resume",
+        data=PDFbyte,
+        file_name=resume.name,
+        mime="application/octet-stream", 
+    )
+    st.write("📧", EMAIL)
 
 
