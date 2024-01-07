@@ -78,3 +78,37 @@ st.write(
 )
 
 
+# --- SKILLS ---
+st.write("#")
+st.subheader("Hard Skills")
+st.write(
+"""
+- 👩‍💻 Programming: Python, Java, Javascript, Kotlin, C, Andriod Development
+- 📊 Frameworks: ReactJS, ViteJS, Django, Streamlit
+- ☁️ Cloud Services: AWS, GCP
+- 🗄️ Databases: Postgres, MongoDB, MySQL, Firebase
+- 📚 Currently Learning: Tensorflow, OpenCV
+"""
+)
+
+# --- Education Section ---
+st.write("#")
+st.markdown("---")
+st.subheader("Education")
+
+# San Jose State University
+st.markdown("#### San Jose State University, San Jose, CA")
+st.markdown("*Master of Science in Software Engineering*")
+st.markdown("Aug 2023 - Current (Expected May 2025)")
+st.markdown("Cumulative GPA: 3.8/4.0")
+st.markdown("Relevant Coursework: Virtual Technologies, Cloud Technologies, Enterprise Software Solutions")
+
+st.markdown("---")
+# University of Alberta
+st.markdown("#### University of Alberta, Alberta, CA")
+st.markdown("*Bachelor of Science in Computer Science with Distinctions*")
+st.markdown("Aug 2018 - April 2022")
+st.markdown("Cumulative GPA: 3.7/4.0; Dean’s List & First Class Standing: 2020-21, 2021-22")
+st.markdown("Relevant Coursework: Software Engineering, Operating Systems, Algorithms & Data Structures, Artificial Intelligence")
+
+
