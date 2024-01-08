@@ -71,13 +71,13 @@ st.subheader("Experience & Qualifications")
 st.write("---")
 st.write(
 """
-- ✔  Strong hands on experience and knowldge in Python, Java, Andriod Developement 
-- ✔  Good understand of Cloud Technologies (AWS / GCP) in building scaleable apps
-- ✔  Excellent team-player and displaying strong sense of initiative on tasks
-- ✔  Strong background in software design patterns/principles, ensuring maintainable & efficient code.
-- ✔  Proficient in Agile methodologies, facilitating rapid development cycles and adaptive planning.
-- ✔  Proficient in implementing RESTful APIs and microservices architecture, enhancing system integration and scalability.
-- ✔  Excellent communication skills, capable of conveying complex technical ideas to non-technical stakeholders.
+- ✔️ Strong hands on experience and knowldge in Python, Java, Andriod Developement 
+- ✔️ Good understand of Cloud Technologies (AWS / GCP) in building scaleable apps
+- ✔️ Excellent team-player and displaying strong sense of initiative on tasks
+- ✔️ Strong background in software design patterns/principles, ensuring maintainable & efficient code.
+- ✔️ Proficient in Agile methodologies, facilitating rapid development cycles and adaptive planning.
+- ✔️ Proficient in implementing RESTful APIs and microservices architecture, enhancing system integration and scalability.
+- ✔️ Excellent communication skills, capable of conveying complex technical ideas to non-technical stakeholders.
 """
 )
 
