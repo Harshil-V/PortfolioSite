@@ -11,9 +11,9 @@ profile_pic = current_dir / "assets" / "profile-img.png"
 
 # --- General Setting ---
 NAME = "Harshil Vyas"
-PAGE_TITLE = "DIGITAL RESUME | Harshil Vyas"
+PAGE_TITLE = "Harshil Vyas | Digitial CV"
 PAGE_ICON = ":wave:"
-PHONE_NUM = "+16692103246"
+PHONE_NUM = "+1 (669) 210-3246"
 DESCRIPTION = """
  Innovative Software Engineer Specializing in Cloud Computing and Mobile Solutions 
 """
@@ -23,10 +23,18 @@ SOCIAL_MEDIA = {
     "GitHub" : "https://github.com/Harshil-V/",
 }
 PROJECTS = {
-    "🏆 Pneumonia Classification Application" : "",
-    "🏆 CMPE 281 Cloud Computing Project - TravelEase" : "https://github.com/Harshil-V/CMPE281-Cloud-Project-2",
-    "🏆 CMPE 281 Cloud Computing Project - CLoud Storage Management" : "https://github.com/Harshil-V/CMPE281-Cloud-Project-1",
-    "🏆 Academics Without Borders (AWB) - Computational-Science Platform " : "https://github.com/University-of-Eswatini/Eswatini-Project"
+    "👩🏻‍💻 Pneumonia Classification Application" : "",
+    "👩🏻‍💻 CMPE 281 Cloud Computing Project - TravelEase" : "https://github.com/Harshil-V/CMPE281-Cloud-Project-2",
+    "👩🏻‍💻 CMPE 281 Cloud Computing Project - Cloud Storage Management" : "https://github.com/Harshil-V/CMPE281-Cloud-Project-1",
+    "👩🏻‍💻 Academics Without Borders (AWB) - Computational-Science Platform " : "https://github.com/University-of-Eswatini/Eswatini-Project",
+}
+
+AWARDS = {
+    # "🏆 Pneumonia Classification Application" : "",
+    # "🏆 CMPE 281 Cloud Computing Project - TravelEase" : "https://github.com/Harshil-V/CMPE281-Cloud-Project-2",
+    # "🏆 CMPE 281 Cloud Computing Project - CLoud Storage Management" : "https://github.com/Harshil-V/CMPE281-Cloud-Project-1",
+    # "🏆 Academics Without Borders (AWB) - Computational-Science Platform " : "https://github.com/University-of-Eswatini/Eswatini-Project"
+
 }
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON, layout="centered")
@@ -84,15 +92,17 @@ st.write(
 
 # --- SKILLS ---
 st.write("#")
-st.subheader("Hard Skills")
+st.subheader("Skills")
 st.write("---")
 st.write(
 """
-- 👩‍💻 Programming: Python, Java, Javascript, Kotlin, C, Andriod Development
-- 📊 Frameworks: ReactJS, ViteJS, Django, Streamlit
-- ☁️ Cloud Services: AWS, GCP
-- 🗄️ Databases: Postgres, MongoDB, MySQL, Firebase
-- 📚 Currently Learning: Tensorflow, OpenCV, Working toward AWS Certification
+- 👩‍💻 __Programming__: Python, Java, Javascript, NodeJS, Kotlin, C, Andriod Development
+- 📊 __Frameworks__: ReactJS, ViteJS, Express.js, Flask, Django, Streamlit
+- ☁️ __Cloud Services__: AWS, GCP
+- 🗄️ __Databases__: Postgres, MongoDB, MySQL, Firebase
+- 💻 __Other Technologies__: CI/CD, Ansible, Docker, Datadog, Terraform
+- 💿 __Operating Systems__: Linux/Unix, Windows, MacOS 
+- 📚 __Currently Learning__: Tensorflow, OpenCV, Working toward AWS Certification
 """
 )
 
@@ -145,8 +155,14 @@ st.write(
 st.write('#')
 st.subheader("Projects & Accomplishments")
 st.write("---")
-for project, link in PROJECTS.items():
-    if link or (link != ""):
-        st.write(f"[{project}]({link})")
-    else:
-        st.write(f"{project}")
+if PROJECTS:
+    st.markdown("##### Projects")
+
+    for project, link in PROJECTS.items():
+        if link or (link != ""):
+            st.write(f"[{project}]({link})")
+        else:
+            st.write(f"{project}")
+
+if AWARDS:
+    st.markdown("##### Awards / Accomplishments")
