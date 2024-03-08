@@ -15,7 +15,7 @@ PAGE_TITLE = "Harshil Vyas | Digitial CV"
 PAGE_ICON = ":wave:"
 PHONE_NUM = "+1 (669) 210-3246"
 DESCRIPTION = """
- Innovative Software Engineer Specializing in Cloud Computing and Mobile Solutions 
+ Innovative Software Engineer Specializing in Cloud Computing and Mobile Solutions | AI/ML & LLM Enthusiast
 """
 EMAIL = "hvyas330@outlook.com"
 SOCIAL_MEDIA = {
@@ -24,15 +24,15 @@ SOCIAL_MEDIA = {
 }
 PROJECTS = {
     "👩🏻‍💻 Pneumonia Classification Application" : "",
-    "👩🏻‍💻 CMPE 281 Cloud Computing Project - TravelEase" : "https://github.com/Harshil-V/CMPE281-Cloud-Project-2",
-    "👩🏻‍💻 CMPE 281 Cloud Computing Project - Cloud Storage Management" : "https://github.com/Harshil-V/CMPE281-Cloud-Project-1",
+    "👩🏻‍💻 TravelEase" : "https://github.com/Harshil-V/CMPE281-Cloud-Project-2",
+    "👩🏻‍💻 Cloud Storage Management" : "https://github.com/Harshil-V/CMPE281-Cloud-Project-1",
     "👩🏻‍💻 Academics Without Borders (AWB) - Computational-Science Platform " : "https://github.com/University-of-Eswatini/Eswatini-Project",
 }
 
 AWARDS = {
     # "🏆 Pneumonia Classification Application" : "",
-    # "🏆 CMPE 281 Cloud Computing Project - TravelEase" : "https://github.com/Harshil-V/CMPE281-Cloud-Project-2",
-    # "🏆 CMPE 281 Cloud Computing Project - CLoud Storage Management" : "https://github.com/Harshil-V/CMPE281-Cloud-Project-1",
+    # "🏆 TravelEase" : "https://github.com/Harshil-V/CMPE281-Cloud-Project-2",
+    # "🏆 Cloud Storage Management" : "https://github.com/Harshil-V/CMPE281-Cloud-Project-1",
     # "🏆 Academics Without Borders (AWB) - Computational-Science Platform " : "https://github.com/University-of-Eswatini/Eswatini-Project"
 
 }
@@ -98,11 +98,12 @@ st.write(
 """
 - 👩‍💻 __Programming__: Python, Java, Javascript, NodeJS, Kotlin, C, Andriod Development
 - 📊 __Frameworks__: ReactJS, ViteJS, Express.js, Flask, Django, Streamlit
-- ☁️ __Cloud Services__: AWS, GCP
+- ☁️ __Cloud Services__: AWS, GCP, Azure
 - 🗄️ __Databases__: Postgres, MongoDB, MySQL, Firebase
 - 💻 __Other Technologies__: CI/CD, Ansible, Docker, Datadog, Terraform
 - 💿 __Operating Systems__: Linux/Unix, Windows, MacOS 
-- 📚 __Currently Learning__: Tensorflow, OpenCV, Working toward AWS Certification
+- 📖 __Currently Learning__: Tensorflow, OpenCV, Working toward AWS Certification
+- ✨ __AI/ML__ - CNN, Reinforment Learning, Retrieval-Augmented Generation (RAG)
 """
 )
 
@@ -133,9 +134,15 @@ st.write("🚧", "**Software Developer | Hi-Tech Seals Inc.**")
 st.markdown("May 2022 – Aug 2023")
 st.write(
     """
-- ► Used PowerBI and SQL to redeﬁne and track KPIs surrounding marketing initiatives, and supplied recommendations to boost landing page conversion rate by 38%
-- ► Led a team of 4 analysts to brainstorm potential marketing and sales improvements, and implemented A/B tests to generate 15% more client leads
-- ► Redesigned data model through iterations that improved predictions by 12%
+- • Redesigned the company's internal website on AWS, enhancing system architecture by upgrading from legacy code, which
+resulted in a 45% improvement in system performance and a 35% increase in scalability.
+
+- • Implemented a CI/CD pipeline using Bitbucket and AWS for software releases, reducing deployment time by 60% and
+increasing team productivity by 40%, facilitating faster and more efficient release cycles.
+
+- • Led the development of an Android application for warehouse/inventory management, integrating API calls to an ERP
+system, which streamlined inventory tracking processes, enhancing operational efficiency by 30%.
+
 """
 )
 
@@ -145,9 +152,10 @@ st.markdown("🚧 **Software Developer Intern | INVIDI Technologies**")
 st.markdown("May 2021 – Aug 2021")
 st.write(
 """
-- ► Implemented, tested, and deployed CRUD for Web API requests to a database for a new feature.
-- ► Helped with deployment by testing, debugging, and resolving issues to ensure the highest level of data security.
-- ► Contributed to ideas and suggestions and provided updates on deadlines, designs, and enhancements in team meetings.
+- • Enhanced feature deployment with CRUD operations for Web API to database, boosting data processing efficiency by 25%
+and user experience.
+- • Ensured highest data security by leading testing and debugging during deployment, reducing security vulnerabilities by 30%.
+- • Contributed to ideas and suggestions and provided updates on deadlines, designs, and enhancements in team meetings.
 """
 )
 
