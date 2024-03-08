@@ -23,6 +23,7 @@ SOCIAL_MEDIA = {
     "GitHub" : "https://github.com/Harshil-V/",
 }
 PROJECTS = {
+    "👩🏻‍💻 GitInsights - LLM RAG Application" : "https://github.com/Harshil-V/Rag-a-thon-LLM",
     "👩🏻‍💻 Pneumonia Classification Application" : "",
     "👩🏻‍💻 TravelEase" : "https://github.com/Harshil-V/CMPE281-Cloud-Project-2",
     "👩🏻‍💻 Cloud Storage Management" : "https://github.com/Harshil-V/CMPE281-Cloud-Project-1",
@@ -154,7 +155,9 @@ st.write(
 """
 - • Enhanced feature deployment with CRUD operations for Web API to database, boosting data processing efficiency by 25%
 and user experience.
+
 - • Ensured highest data security by leading testing and debugging during deployment, reducing security vulnerabilities by 30%.
+
 - • Contributed to ideas and suggestions and provided updates on deadlines, designs, and enhancements in team meetings.
 """
 )
